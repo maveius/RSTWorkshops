@@ -1,0 +1,16 @@
+<?xml versison="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarginsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+>
+    <testsuites>
+        <testsuite name="RSTWorkshops Tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
